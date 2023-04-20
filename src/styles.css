@@ -1,0 +1,58 @@
+.App {
+  font-family: sans-serif;
+
+  height: 100vh;
+  width: 100vw;
+  font-size: 16px;
+}
+
+.container {
+  border: 1px solid black;
+}
+
+.addTaskDiv {
+  display: flex;
+}
+
+.addTaskDiv .inputbox {
+  width: 60%;
+  height: 1.5em;
+  border: 1px solid green;
+  margin: 1em;
+  padding: 1em;
+}
+
+.addTaskDiv .addBtn {
+  border: 1px solid green;
+  margin: 1em;
+  padding: 1em;
+  min-width: 200px;
+}
+
+.tasks {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.tasks .taskName {
+  width: 59%;
+  height: 1.5em;
+  border: 1px solid green;
+  margin: 1em;
+  padding: 1em;
+}
+
+.tasks .actionBtns {
+  border: 1px solid green;
+  margin: 1em;
+  padding: 1em;
+  min-width: 200px;
+}
+
+.tasks .actionBtns button {
+  margin: 1px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
